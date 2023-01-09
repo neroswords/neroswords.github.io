@@ -9,6 +9,8 @@
  body {
 	 font-family: 'Quicksand', sans-serif;
 	 color: #324e63;
+	 overflow: hidden;
+	 height: 100%;
 }
  a, a:hover {
 	 text-decoration: none;
