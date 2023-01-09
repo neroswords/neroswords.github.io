@@ -186,9 +186,13 @@
 	 background: linear-gradient(45deg, #3b5998, #0078d7);
 	 box-shadow: 0px 4px 30px rgba(43, 98, 169, 0.5);
 }
- .profile-card-social__item.twitter {
-	 background: linear-gradient(45deg, #1da1f2, #0e71c8);
-	 box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.7);
+ .profile-card-social__item.line {
+	 background: linear-gradient(45deg, #4CC764, #06C755);
+	 box-shadow: 0px 4px 30px rgba(6, 199, 85, 0.7);
+}
+.profile-card-social__item.twitter {
+	background: linear-gradient(45deg, #1da1f2, #0e71c8);
+	box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.7);
 }
  .profile-card-social__item.instagram {
 	 background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
