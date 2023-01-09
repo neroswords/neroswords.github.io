@@ -198,6 +198,18 @@
 	 background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 	 box-shadow: 0px 4px 30px rgba(120, 64, 190, 0.6);
 }
+
+.profile-card-social__item.linkedin {
+	background: linear-gradient(45deg, #1769ff, #213fca);
+	box-shadow: 0px 4px 30px rgba(10, 102, 194, 0.7);
+}
+
+.profile-card-social__item.medium {
+	background: linear-gradient(45deg, #000000, #000000);
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.7);
+}
+
+
  .profile-card-social__item.behance {
 	 background: linear-gradient(45deg, #1769ff, #213fca);
 	 box-shadow: 0px 4px 30px rgba(27, 86, 231, 0.7);
