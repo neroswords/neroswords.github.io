@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="style.css" type="text" />
 </head>
+<body>
 <div class="wrapper">
     <div class="profile-card js-profile-card">
       <div class="profile-card__img">
@@ -100,7 +101,7 @@
         </div> -->
       </div>
   
-      <div class="profile-card-message js-message">
+      <!-- <div class="profile-card-message js-message">
         <form class="profile-card-form">
           <div class="profile-card-form__container">
             <textarea placeholder="Say something..."></textarea>
@@ -118,7 +119,7 @@
         </form>
   
         <div class="profile-card__overlay js-message-close"></div>
-      </div>
+      </div> -->
   
     </div>
   
@@ -181,25 +182,5 @@
     </defs>
   </svg>
   
-  
+</body>
 </html>
-<script>
-var messageBox = document.querySelector('.js-message');
-  var btn = document.querySelector('.js-message-btn');
-  var card = document.querySelector('.js-profile-card');
-  var closeBtn = document.querySelectorAll('.js-message-close');
-
-  btn.addEventListener('click',function (e) {
-      e.preventDefault();
-      card.classList.add('active');
-  });
-
-  closeBtn.forEach(function (element, index) {
-     console.log(element);
-      element.addEventListener('click',function (e) {
-          e.preventDefault();
-          card.classList.remove('active');
-      });
-  });
-</script>
-
